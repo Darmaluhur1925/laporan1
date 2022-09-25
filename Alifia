@@ -1,0 +1,44 @@
+Laporan Proyek
+
+
+Domain Proyek
+
+Supermarket adalah toko dengan sistem pelayanan mandiri, menjual berbagai barang secara eceran ataupun grosir. Sebuah pencatatan pada bidang keuangan pada sebuah supermarket sangat diperlukan untuk mengetahui bagaimana perkembangan suatu penjualan pada supermarket tersebut. Adapun yang mempengaruhi suatu penjualan yakni dari segi tempat, harga per unit, kuantitas, serta tax yang berlaku.
+
+mencatat pengeluaran bisnis dapat mengurangi resiko pada manajemen keuangan. Resiko ini dapat terjadi jika pengelolaan terhadap keuangan yang buruk. Dengan mencatat dan melacak pengeluaran setiap hari dapat mengontrol biaya. Hal ini juga berdampak pada laba yang dapat diterima. Dengan mengontrol biaya inilah, kita dapat menyiapkan disaat pajak mulai bertambah.
+
+Dengan mempertimbangkan pentingnya pencatatan penjualan inilah, kita dapat dengan cepat menetukan serta memprediksi sebarap menguntungkan bisnis yang sedang dijalankan. Hal ini dapat mencegah kita terjebak dalam asumsi bias tentang profitabilitas bisnis. 
+
+Business Understanding
+
+1. Problem Statements
+berdasarkan domain proyek diatas, didapat beberapa permasalahan sebagai berikut?
+a. bagaimana cara menganalisis data penjualan?
+b. Bagaimana cara mengolah data tersebut agar dapat dilatih dengan baik oleh model?
+c. Bagaiana cara membangun model yang dapat memprediksi keuntungan penjualan yang dilakukan dengan tingkat akurasi yang baik?
+
+2. Goals
+Tujuan dalam melakukan penelitian yakni sebagai berikut:
+a. dapat mengetahui cara menganalisis data penjualan.
+b. dapat mengetahui cara mengolah data agar dapat dilatih dengan baik oleh model.
+c. dapat mengetahui cara membangun model yang dapat memprediksi keuntungan penjualan yang dilakukan dengan tingkat akurasi yang baik.
+
+3. Solution Statements
+Dari rumusan masalah serta tujuan yang telah dipaparkan, berikut solusi yang dapat dilkukan.
+a. melakukan analisis data meliputi investigasi awal pada data mengenai karakteristik, pola, anomali, serta asumsi yang terdapat pada data. selain itu, analisis data dapat kita lakukan dengan menangani missing value serta menangani outliers. setelah itu, kita dapat mencari tau hubungan antara dua atau lebih variabel pada data. 
+b. menggunakan algoritma K-Nearest Neighbor, Random Forest, dan Boosting Algorithm pada data yang dijadikan menjadi model regresi yakni persamaan matematik yang dapat meramalkan nilai-nilai suatu variabel tak bebas dari nilai-nilai variabel bebas (Walpole, 1982: 340)
+c. melakukan evaluasi pada data yang telah kita proses pada ketiga algoritma sebelumnya yang berupa data tes dan train.
+
+Data Understanding
+
+Data Preparation
+teknik data preparation yang digunakan dalam mengolah data adalah sebagai berikut:
+1. membuang jenis kolom dengan isi kategori, dan diganti menggunakan encoding yang nantinya dapat mengubah data menjadi suatu bentuk yang dapat diterima oleh penerima. 
+2. melakukan reduksi dengan PCA yakni teknik pengurangan dimensi dengan mereduksi dimensi, mengekstraksi fitur, dan mentransformasi data "n-dimensional space" ke dalam sistem berkoordinat baru dengan dimensi m, dimana m lebih kecil dari n
+3. membagi dataset menjadi data train dan data test. hal ini dipergunakan agar tidak mengotori data test dengan informasi yang didapat dari data train. 
+4. melakukan standarisasi agar data yang masuk dapat diloah oleh algoritma dengan lebih mudah
+
+Modeling
+
+Evaluation
+
